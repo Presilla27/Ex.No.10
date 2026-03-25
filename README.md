@@ -1,7 +1,7 @@
 # Ex.No.10
 Content Creation (Reports, Articles, Case Studies, etc.) Using Prompt Patterns
 
-### Reg. No: 212223050026
+### Reg. No: 212223050038
 ### Name: PRESILLA K
 
 ## Aim:
