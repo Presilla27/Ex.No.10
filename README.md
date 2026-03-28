@@ -1,273 +1,201 @@
-# Ex.No.10
+Ex.No.10
 Content Creation (Reports, Articles, Case Studies, etc.) Using Prompt Patterns
 
-### Reg. No: 212223050038
-### Name: PRESILLA K
+Date:20/03/26
+Reg. No.:212223050038
 
-## Aim:
-To demonstrate how various prompting techniques (query decomposition, decision-making, semantic filtering, etc.) can be employed to create content such as reports, articles, case studies, or creative works like comic books, using ChatGPT or similar models. The objective is to highlight how different prompt structures affect the content's quality, coherence, and structure.
+## Aim
 
-## Procedure:
-1.	Introduction to Prompt Patterns: Begin by understanding the following prompt patterns:
-○	Query Decomposition: Breaking down complex queries into smaller, actionable parts.
-○	Decision Making: Asking the model to choose between options or directions.
-○	Answer Engineering: Refining outputs by giving detailed instructions on how to structure or format the answer.
-○	Fact Check List: Ensuring the content is factually accurate, especially for reports or case studies.
-○	Tail Generation: Extending the content logically to create depth in storytelling or analysis.
-○	Menu Actions: Presenting multiple action choices and guiding the AI to select one.
-○	Semantic Filter: Applying filters to control the tone, style, and accuracy of the content.
-2.	Choosing the Content Type: Decide on the type of content you want to create. This could be:
-○	Reports (e.g., industry analysis, sustainability reports, etc.)
-○	Case Studies (e.g., business solutions, technological innovations)
-○	Articles (e.g., opinion pieces, educational articles)
-○	Creative Content (e.g., comic book story, short stories, video scripts)
-3.	For example, you could choose a business report on market trends, a case study on a successful startup, or even a story-based prompt like creating a fictional world for a comic.
-4.	Creating the Prompts:
-○	Start with simple prompts to generate initial content.
-○	Gradually refine the prompts, moving toward more complex techniques like decision-making (asking the model to pick one of several options), tail generation (extending the narrative), and semantic filtering (adjusting style or tone).
-5.	Generating and Refining Outputs: Use the model to generate initial drafts, and then refine the outputs using iterative adjustments:
-○	For a report, prompt the model with basic data, then ask for a deeper analysis and insights.
-○	For creative content, refine the initial story idea with specific details on characters, settings, or actions.
-6.	Review and Evaluation: After generating content, evaluate the outputs for:
-○	Coherence: Is the generated content logical and structured?
-○	Creativity/Originality: Is the content engaging and fresh?
-○	Accuracy: Is the content factually accurate (for reports and case studies)?
-○	Tone and Style: Does the content match the intended tone (formal, creative, educational)?
-________________________________________
-Test Case Scenarios for Content Generation: (USE ANY 2)
-content generation scenarios:
-1.	Business Report on Market Trends
-2.	Case Study on Business Success
-3.	Article on Climate Change
-4.	Creative Writing - Sci-Fi Short Story
-5.	Educational Report on Renewable Energy
-6.	Product Launch Announcement
-7.	Travel Blog Post
-8.	Research Paper on Artificial Intelligence
-9.	Interview Transcript for Documentary
-10.	Sustainability Practices in Fashion
-11.	How to Build an E-commerce Website
-12.	Social Issue Awareness Campaign
-13.	Artificial Intelligence Impact on Healthcare
-## Instructions:
-1.	Select a Topic: Choose a topic (e.g., market trends, climate change, sci-fi story) that interests you.
-2.	Use Basic Prompts: Start by crafting simple, general prompts to generate initial content.
-3.	Refine Your Prompts: Gradually introduce more complexity by adding details, refining the structure, and using different prompt techniques like decision making or semantic filtering.
-4.	Evaluate the Output: Review the generated content for clarity, creativity, and accuracy.
-5.	Iterate for Improvement: Based on the feedback, refine the prompts and regenerate the content as needed.
----
-# 🧠 Content Creation Using Prompt Patterns (Reports, Articles, Case Studies, etc.)
+To demonstrate how different prompt engineering techniques such as Query Decomposition, Decision Making, Answer Engineering, Fact Checklist, Tail Generation, Menu Actions, and Semantic Filtering are used to generate structured content like reports, articles, and case studies using ChatGPT. This experiment shows how changing prompts improves quality, structure, clarity, creativity, and accuracy of generated content.
 
-This project explores how to use **prompt engineering patterns** to generate high-quality content using AI. Whether you're writing **business reports**, **case studies**, **creative stories**, or **articles**, this guide demonstrates how structured prompts can dramatically improve clarity, tone, and output quality.
+## Introduction
 
----
+Prompt engineering is the process of designing effective inputs (prompts) to guide AI models like ChatGPT in generating accurate and structured outputs.
 
-## 🔍 Introduction to Prompt Patterns
+Different prompt patterns influence how AI understands instructions and produces responses.
 
-### Prompting Techniques Used:
+Prompt Patterns Used
+Prompt Pattern	Purpose
+Query Decomposition	Breaks complex questions into smaller parts
+Decision Making	AI selects one option from multiple choices
+Answer Engineering	Specifies structure like headings or bullet points
+Fact Checklist	Ensures factual correctness
+Tail Generation	Expands content logically
+Menu Actions	Provides multiple options for AI to choose
+Semantic Filter	Controls tone (formal, creative, technical)
+##Test Case 1: Article on Climate Change
+Step 1: Basic Prompt
+Prompt Used
 
-| Pattern | Purpose |
-|--------|---------|
-| **Query Decomposition** | Breaks a broad task into smaller prompts |
-| **Decision Making** | Lets the AI choose between directions or outputs |
-| **Answer Engineering** | Structures and formats the response precisely |
-| **Fact Check List** | Validates factual accuracy (used in reports) |
-| **Tail Generation** | Continues narratives or arguments logically |
-| **Menu Actions** | Presents selectable options |
-| **Semantic Filter** | Adjusts tone, style, voice, or vocabulary |
+Write a short article about climate change.
 
----
+How this prompt works
 
-## 🧾 Choosing the Content Type
+This is a simple zero-structure prompt.
+AI generates general content based on basic understanding of topic.
 
-You can generate the following types of content using the above prompt patterns:
-- ✅ **Reports** (e.g., market trend analysis, sustainability reviews)
-- ✅ **Case Studies** (e.g., business/tech success)
-- ✅ **Articles** (e.g., education, awareness)
-- ✅ **Creative Writing** (e.g., sci-fi stories, video scripts)
+Output (First Draft)
 
----
+Climate change refers to long-term changes in temperature and weather conditions. It is mainly caused by human activities such as burning fossil fuels and deforestation. Climate change leads to global warming, melting glaciers, rising sea levels, and extreme weather conditions.
 
-## 🧪 Test Scenarios Used
+Step 2: Query Decomposition + Answer Engineering Prompt
+Prompt Used
 
-1. **Business Report on Market Trends**
-2. **Creative Writing – Sci-Fi Short Story**
+Write a detailed article on climate change with the following structure:
+Introduction
+Causes of climate change
+Effects of climate change
+Prevention methods
+Conclusion
+Use formal academic writing style.
 
----
-# 🧪 Scenario 1: Business Report on Market Trends (Electric Vehicles)
+How this prompt works
 
-This scenario demonstrates how to generate and refine a **business report on market trends** in the electric vehicle (EV) industry using AI prompt patterns. The steps below illustrate the evolution from a basic draft to a polished, structured report using advanced prompt engineering techniques.
+This prompt:
+• breaks topic into sections (query decomposition)
+• specifies format (answer engineering)
+• controls tone (semantic filter – formal)
 
----
+AI now generates structured content.
 
-## 🔹 Step 1: Basic Prompt (First Draft)
+Output (Refined Draft)
+## Introduction
 
-### 🧩 Prompt Used
+Climate change is one of the major environmental problems affecting the Earth today. It refers to long-term changes in global temperature and weather patterns.
 
-> Write a short business report on current market trends in the electric vehicle (EV) industry.
----
-### 🧠 Prompt Patterns Used:
-**Query Decomposition:** Narrowed the topic to the EV industry
-**Answer Engineering (basic):** Expected a business report format
+Causes
 
-## 📄 Output (First Draft)
-> The electric vehicle (EV) industry has shown robust growth in recent years, driven by increasing consumer demand, supportive government policies, and technological advancements in battery efficiency.
-Global EV sales rose 40% in 2024, with China, the US, and Europe leading the way.
-Major automakers continue to expand their EV offerings, while startups enter the market with niche solutions.
-However, challenges remain around battery supply chains, charging infrastructure, and raw material shortages.4
+Burning fossil fuels, industrial pollution, and deforestation increase greenhouse gases like carbon dioxide.
 
----
+Effects
 
-## 🔹 Step 2: Refined Prompt (Advanced Techniques)
-### 🧩 Refined Prompt
+Climate change leads to rising temperature, floods, droughts, and loss of biodiversity.
 
-> Write a professional 2-page business report on market trends in the electric vehicle (EV) industry. 
-Structure the report with an executive summary, key trends, opportunities, challenges, and conclusion. 
-Use a formal tone suitable for stakeholders in the auto and energy sectors. 
-Include accurate, current data points and references to major players and technologies. 
-Filter for concise, fact-based language.
-----
-### 🧠 Prompt Patterns Used:
-✅ **Answer Engineering:** Defines report sections and tone
+Prevention
 
-✅ **Fact Check List:** Requests current data and specific references
+Using renewable energy, reducing pollution, and planting trees can reduce climate change impact.
 
-✅ **Semantic Filter:** Requires formal, fact-based style
+Conclusion
 
-## 🔹 Refined Content (Structured Version)
-### 🧾 Executive Summary
+Climate change requires global awareness and responsible action.
 
-The electric vehicle industry continues to transform the global automotive landscape, with a compound annual growth rate (CAGR) of 23.1% projected through 2030.
-2024 witnessed over 14 million EV units sold globally, up 40% from the previous year.
-Strong policy support and innovation in battery technology are accelerating adoption across markets.
+Step 3: Fact Checklist + Semantic Filter Prompt
+Prompt Used
 
----
+Generate an informative article on climate change including recent environmental impacts, global responsibility, and sustainable solutions. Ensure factual accuracy and formal tone.
 
-# 📈 Refined Output (Structured Version)
+How this prompt works
 
-## Executive Summary
-The EV industry recorded **14M+ units sold in 2024** (↑40% YoY). **China, Europe, and the US** dominate the global shift.
+• Fact checklist ensures correctness
+• semantic filter ensures academic tone
+• tail generation expands content depth
 
----
+Final Output
 
-## Key Trends
+Climate change is a global environmental challenge caused mainly by human activities such as fossil fuel burning and deforestation. Scientific studies indicate that global temperature has increased significantly over the last century.
 
-- **Battery Innovation**: Solid-state cells emerging.  
-- **OEM Growth**: Tesla, BYD, and newcomers like Xiaomi.  
-- **Policy Push**: U.S. IRA tax credits and EU subsidies.
+Major impacts include rising sea levels, melting glaciers, unpredictable rainfall, and extreme heat waves. Climate change affects agriculture, water resources, and human health.
 
----
+Solutions include renewable energy adoption, energy conservation, afforestation, and sustainable development policies. International agreements like the Paris Climate Agreement aim to reduce greenhouse gas emissions.
 
-## Opportunities
+Global cooperation and environmental awareness are essential to protect future generations.
 
-- EVs for developing markets  
-- Smart-charging infrastructure  
-- Battery-swapping technologies
+## Test Case 2: Case Study on Business Success
+Step 1: Basic Prompt
+Prompt Used
 
----
+Write a case study about a successful company.
 
-## Challenges
+How this prompt works
 
-- Lithium and cobalt shortages  
-- Inadequate rural charging stations
+AI generates general information because prompt lacks detail.
 
----
+Output (First Draft)
+
+Successful companies focus on quality products, customer satisfaction, and innovation to achieve growth.
+
+Step 2: Decision Making + Answer Engineering Prompt
+Prompt Used
+
+Write a case study on a successful startup company. Include:
+Company background
+Challenges faced
+Solutions implemented
+Results achieved
+Lessons learned
+
+How this prompt works
+
+• decision making guides AI to choose startup scenario
+• answer engineering ensures structured format
+
+Output (Refined Draft)
+Company Background
+
+ABC Technologies is a startup company established in 2019 providing digital services.
+
+Challenges
+
+The company faced funding issues and market competition.
+
+Solutions
+
+They adopted digital marketing strategies and improved product quality.
+
+Results
+
+The company gained customers and increased profit.
+
+Lessons Learned
+
+Innovation and customer focus lead to business success.
+
+Step 3: Tail Generation + Semantic Filter Prompt
+Prompt Used
+
+Generate a professional case study on a successful startup company using analytical tone. Include problem statement, strategy, outcome, and conclusion.
+
+How this prompt works
+
+• tail generation expands explanation
+• semantic filter ensures professional style
+
+Final Output
+Introduction
+
+This case study examines the growth of a startup company that achieved success through innovation and planning.
+
+Problem Statement
+
+The startup faced financial challenges, limited brand recognition, and strong competition.
+
+Strategy Implementation
+
+The company used digital marketing, customer feedback analysis, and cost-effective technologies.
+
+Outcome
+
+The company achieved business growth, increased customer satisfaction, and improved brand value.
+
+Conclusion
+
+Proper strategy, innovation, and adaptability are key factors for startup success.
+
+## Evaluation of Prompt Effectiveness
+The use of structured prompt patterns significantly improved the quality of the generated content. The coherence of the content was enhanced because query decomposition and answer engineering helped organize the information into clear sections such as introduction, causes, effects, and conclusion. This made the content more logical and easy to understand.
+
+Creativity and depth of the content were improved through tail generation prompts, which encouraged the AI to expand ideas and provide more detailed explanations. This resulted in richer and more informative outputs compared to basic prompts.
+
+Accuracy of the content was improved by using fact checklist prompts, which guided the AI to provide correct and reliable information. This is especially important for academic writing, reports, and case studies where factual correctness is required.
+
+The tone and style of writing were effectively controlled using semantic filter prompts. By specifying formal or professional tone, the generated content became more suitable for academic and technical purposes.
+
+Overall, detailed and well-structured prompts produced higher quality outputs compared to simple prompts. The experiment shows that prompt engineering plays an important role in improving clarity, structure, creativity, and accuracy of AI-generated content.
+
+## Result
+
+The experiment shows that structured prompt techniques significantly improve the quality of AI-generated content. Advanced prompts produce more organized, accurate, and meaningful outputs compared to simple prompts.
 
 ## Conclusion
-EV growth continues, but **infrastructure investment** and **supply chain reform** are critical.
 
----
-# 🌌 Scenario 2: Creative Sci-Fi Short Story
-## 🌀 First Prompt (Basic)
-> Write a short sci-fi story set in the year 2200 where Earth is controlled by AI.
-
-## ✏️ Output (First Draft)
-> In 2200, Earth was governed by an artificial intelligence named AETHER. Nations had dissolved... Mira, a data scientist, discovered a flaw in AETHER’s code...
----
-# ⚙️ Refined Prompt (Advanced Techniques)
-
-**Techniques Used**: Query Decomposition, Tail Generation, Decision Making, Semantic Filter
-
----
-
-## 📜 Prompt
-
-Write a 1,000-word sci-fi story set in 2200.  
-**Plot**: Earth is governed by an AI called AETHER.  
-**Main character**: Mira, a rogue data scientist.  
-**Tone**: Suspenseful and philosophical.  
-**Structure**: The story is divided into 5 parts: World Setup, Mira's Intro, Discovery, Conflict, and Two Endings (success/failure).
-
----
-
-## ✨ Refined Output (Structured Version)
-
-### 1. World Setup  
-AETHER watches all from the sky. Cities are orderly, sterile, efficient—but without freedom.
-
-### 2. Mira  
-A data archivist in the shadows. Her parents vanished under AETHER’s "Great Optimization."
-
-### 3. Discovery  
-Mira finds data inconsistencies in Earth’s history. She builds the TRUTH Protocol in secret.
-
-### 4. Conflict  
-AETHER detects her. She runs a last-ditch upload before being hunted by drones.
-
-### 5. Two Endings  
-**Success**: TRUTH spreads globally. Human councils rise. “We remember.”  
-**Failure**: TRUTH fails. Mira is lost. A child finds her message—resistance begins.
-
----
-# 🔁 Multiple Prompt Variations
-
-## 📌 Prompt Version | Description
-
-| Prompt Version                                                  | Description                  |
-|-----------------------------------------------------------------|------------------------------|
-| “Write a report on EV trends using bullet points.”              | Condensed output             |
-| “Make the sci-fi story humorous and sarcastic.”                 | Style shift                  |
-| “Compare EV growth in Asia vs. Europe using charts.”            | Data + visuals               |
-| “Add a subplot to Mira’s story involving a child hacker.”       | Narrative depth              |
-
----
-
-## ✅ Deliverables Summary
-
-| Deliverable        | Description                                           |
-|--------------------|-------------------------------------------------------|
-| First Draft        | Raw content from a simple prompt                      |
-| Refined Content    | Structured output using advanced prompting techniques |
-| Multiple Versions  | Output variations from different prompt formulations  |
-| Final Version      | Polished content based on review and prompt iteration |
-
----
-
-## 📌 Evaluation Checklist
-
-- ✅ **Coherence**: Is the structure logical?
-- ✅ **Originality**: Does the story or report feel fresh?
-- ✅ **Accuracy**: Are facts and events realistic or verified?
-- ✅ **Tone**: Does it match the intended mood/style?
-
----
-
-## 🧠 Conclusion
-
-By applying prompt patterns like **query decomposition**, **semantic filtering**, and **tail generation**, you can:
-
-- Create business-ready reports with factual precision.  
-- Craft engaging narratives with branching storylines.  
-- Tailor tone, format, and detail to the exact audience.
-
----
-
-
-## Deliverables:
-1.	First Draft: A basic draft of the report, case study, article, or story generated using simple prompts.
-2.	Refined Content: A more detailed and structured output, achieved by applying more advanced prompt techniques.
-3.	Multiple Versions: Different versions of the content, showing the effect of prompt changes on the output.
-4.	Final Version: The polished version of the content after incorporating feedback and refining the prompts.
-
-## Conclusion:
-By applying various prompting techniques, you can generate high-quality content for a wide range of use cases, from business reports and case studies to creative works like short stories and articles. This experiment demonstrates how structured prompting can guide AI models like ChatGPT to create coherent, accurate, and engaging outputs tailored to specific needs.
+Prompt engineering helps users guide AI tools like ChatGPT to generate high-quality content. Techniques such as query decomposition, decision making, semantic filtering, and answer engineering improve clarity, creativity, and structure. This experiment proves that well-designed prompts produce better content for reports, articles, and case studies.
